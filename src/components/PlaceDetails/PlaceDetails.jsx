@@ -2,9 +2,9 @@ import React from 'react'
 
 const PlaceDetails = () => {
   return (
-    <div>
-      
-    </div>
+    <h1>
+      Place Details
+    </h1>
   )
 }
 
