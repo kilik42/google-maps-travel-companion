@@ -10,8 +10,8 @@ import useStyles from './styles';
 const Header = () => {
   const classes = useStyles();
   return (
-    <AppBar postion ="static">
-      <Toolbar classname={classes.toolbar}>
+    <AppBar position ="static">
+      <Toolbar className={classes.toolbar}>
         <Typography variant="h5" className = {classes.title}>
           Travel Advisor
         </Typography>
@@ -20,7 +20,7 @@ const Header = () => {
           <Typography variant="h6" className = {classes.title}>
             explore new places
           </Typography> 
-          <Autocomplete>
+          {/* <Autocomplete> */}
             <div className={classes.search}>
               <div className = {classes.searchIcon}>
                 <SearchIcon />
@@ -30,7 +30,7 @@ const Header = () => {
                 classes={{root: classes.inputRoot,
                  input: classes.inputInput  }}/>
             </div>
-          </Autocomplete>
+          {/* </Autocomplete> */}
         </Box>
       </Toolbar>
     </AppBar>
